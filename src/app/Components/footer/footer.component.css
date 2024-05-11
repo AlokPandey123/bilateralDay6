@@ -1,0 +1,18 @@
+.footer{
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footeritems{
+    align-items: center;
+    display: grid;
+    grid-column: auto auto;
+}
+.gridnav{
+    display: flex;
+    
+}

@@ -1,0 +1,32 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-info {
+    padding: 20px;
+  }
+  
+  .card-info h2 {
+    margin-top: 0;
+  }
+  
+  .card-info p {
+    margin: 5px 0;
+  }
+
+.mainContainer{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}

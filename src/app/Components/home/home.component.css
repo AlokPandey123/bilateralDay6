@@ -1,0 +1,87 @@
+.mainContainer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.leftContainer{
+    width: 50%;
+}
+.rightContainer{
+    width: 50%;
+    
+
+}
+
+.rightContainer img{
+    width: 60%;
+}
+.textheading{
+    font-size: 45px;
+    font-weight: bold;
+}
+.textheading .span1{
+    color: blue;
+}
+.textheading .span2{
+    color: rgb(247, 7, 79);
+}
+
+.text{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px 35px;
+    background-color: antiquewhite;
+}
+
+.btnContainer .button{
+    padding: 20px;
+    margin: 10px;
+}
+
+.btnContainer .btn1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+.btnContainer .btn1:hover{
+    cursor: pointer;
+    background-color: rgb(222, 194, 159);
+}
+.btnContainer .btn2{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(209, 237, 232);
+}
+
+.btnContainer .btn2:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(164, 239, 226);
+}
+
+
+.btnslide1{
+    width: 30px;
+    
+    height: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+}
+.btnslide2{
+    width: 30px;
+    
+    height: 30px;
+}
+
+.rightColle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,16 @@
+<h1>Our Productes</h1>
+
+<div id="mainContainer">
+   
+    <div class="cardContainer" *ngFor="let item of arr">
+        <div>
+            <img src={{item.image}} alt="">
+        </div>
+        <div>
+            <h4>Id: {{item.id}}</h4>
+            <h4>Name:{{item.title}}</h4>
+            <h5>Price:{{item.price}}</h5>
+            
+        </div>
+    </div>
+</div>

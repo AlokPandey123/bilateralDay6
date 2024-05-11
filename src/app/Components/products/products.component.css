@@ -1,0 +1,33 @@
+.cardContainer {
+    height: 450px;
+    width: 80%;
+    background-color: rgb(222, 194, 159);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.cardContainer div img {
+    width: 290px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cardContainer div {
+    text-align: center;
+}
+
+#mainContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    min-height: 80vh;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+<div class="mainContainer">
+    <div class="leftContainer">
+        <div class="textheading"><span class="span1">Welcome to all </span>  <span class="span2">Alok MegaMart</span></div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellat quo facilis ipsa odit soluta quibusdam doloremque deleniti
+             reiciendis, commodi, harum nostrum reprehenderit voluptates quis praesentium aut unde doloribus est?</p>
+        <div class="btnContainer">
+            <button class="btn1 button" [routerLink]="['/products']">Explore Products
+            </button>
+        <button class="btn2 button" [routerLink]="['/complain']">Contact Us</button>
+        </div>
+    </div>
+    <div class="rightContainer">
+        <div class="rightColle">
+            <button (click)="leftImg()">
+                <img src="../assets/pre.png" alt="" class="btnslide1">
+            </button>
+            <img src={{url}} alt="">
+            <button (click)="rightImg()">
+                <img src="../assets/next.png" alt="" class="btnslide2">
+            </button>
+            
+        </div>
+        <div>See Images</div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    top: 0%;
+    left: 0%;
+    position: sticky;
+}
+
+#navbar div{
+    padding: 10px;
+}
+
+#navbar div ul {
+    display: flex;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#navbar div ul li{
+    list-style: none;
+    padding: 22px 20px;
+}
+#navbar div ul li a{
+    padding: 22px 20px;
+    text-decoration: none;
+}
+
+#navbar div ul li:hover{
+    background-color: rgb(222, 194, 159);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
